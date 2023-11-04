@@ -1,0 +1,59 @@
+.fixed-nav{
+    border: none; /* Remove border */
+    box-shadow: none;
+}
+
+
+.home-cont {
+    justify-content: center;
+    height: 300px; /* Set a specific height for the container */
+    text-align: center;
+}
+.about-cont {
+    justify-content: center;
+    height: 300px; /* Set a specific height for the container */
+    text-align: center;
+}
+.proj-cont{
+    justify-content: center;
+    height: 300px; /* Set a specific height for the container */
+    text-align: center;
+}
+.abtme-cont{
+    justify-content: center;
+    height: 300px; /* Set a specific height for the container */
+    text-align: center;
+}
+.contact-cont{
+    justify-content: center;
+    height: 300px; /* Set a specific height for the container */
+    text-align: center;
+}
+
+.container p {
+    text-align: center; /* Center the text horizontally within the container */
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.beating-button {
+    font-size: 24px;
+    border-radius: 10ch;
+    background-color:transparent;
+    color: black;
+    border: none; /* Remove border */
+    box-shadow: none;
+    cursor: pointer;
+    animation: beat 2.5s infinite; /* Apply the 'beat' animation */
+}
+

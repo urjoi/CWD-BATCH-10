@@ -1,0 +1,57 @@
+h1,h2,h3,h4,h5,h6, {
+    font-weight: 300;
+}
+
+p{
+    font-weight: 500;
+}
+pre{
+    font-size: medium;
+    font-weight: 200;
+}
+
+
+.stock-link{
+    font-weight: 120;
+    font-size: 13px;
+}
+
+.parent-sticky{
+
+    position: sticky;
+    top: 20px;
+}
+.stock-link-small{
+    font-weight: 120;
+    font-size: 10px;
+    margin-left: 50px;
+
+}
+
+.stock-img{
+    margin: 20px 1px 20px;
+
+}
+.flow-text{
+font-display: center;
+
+}
+
+.card {
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 1px;
+    width: auto;
+    height:auto;
+    overflow-x: auto;
+}
+
+.material-icons{
+    color: rgb(130, 1, 250);
+    border-color: aqua;
+    font-size: large;
+}
+.wew{
+    font-style: italic;
+    color: blueviolet;
+}
