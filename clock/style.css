@@ -1,7 +1,0 @@
-.clock{
-
-    --clock-size: 360px;
-    width: var(--clock-size);
-    height: var(--clock-size);
-    
-}
